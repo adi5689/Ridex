@@ -212,7 +212,7 @@
 
   .header { 
     background: var(--alice-blue-1);
-    position: relative;
+    position: absolute;
     top:0;
     left:0;
     width:100%;
@@ -845,7 +845,7 @@
 
 /* /* RESPONSIVE FOR LARGE THAN 768PX SCREEN */
 
-@media (min-width: 580px) {
+@media (min-width: 768px) {
   /* Custom property */
   :root {
     /* typography */
